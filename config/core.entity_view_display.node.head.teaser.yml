@@ -1,0 +1,27 @@
+uuid: 0fd5564e-3a0b-4d77-92b5-71c05e6fa28d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.head.field_banner
+    - node.type.head
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.head.teaser
+targetEntityType: node
+bundle: head
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_banner: true

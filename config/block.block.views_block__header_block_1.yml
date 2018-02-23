@@ -1,0 +1,24 @@
+uuid: 58476227-ad69-4ce5-8ebd-a5fe73adce3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.header
+  module:
+    - views
+  theme:
+    - skate
+id: views_block__header_block_1
+theme: skate
+region: header
+weight: -3
+provider: null
+plugin: 'views_block:header-block_1'
+settings:
+  id: 'views_block:header-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

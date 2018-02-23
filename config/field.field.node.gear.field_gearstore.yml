@@ -1,0 +1,31 @@
+uuid: 0689a87d-c016-4949-9d27-ddd218ab6ad2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gearstore
+    - node.type.gear
+    - paragraphs.paragraphs_type.storre
+  module:
+    - entity_reference_revisions
+id: node.gear.field_gearstore
+field_name: field_gearstore
+entity_type: node
+bundle: gear
+label: gearstore
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      storre: storre
+    target_bundles_drag_drop:
+      storre:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

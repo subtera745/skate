@@ -1,0 +1,42 @@
+.hours {
+	background-color: pink;
+}
+
+@media (max-width: 40em) {
+.hours td,
+.hours table,
+.hours tr,
+.hours th,
+.hours tbody {
+	display: block;
+	border: none;
+}
+
+.hours thead {
+	display: none;
+}
+
+.hours tbody td:nth-child(1) {
+	font-size: 1.2em;
+}
+.hours tbody td:nth-child(2)::before {
+	content: 'Hours: ';
+	font-weight: bold;
+}
+.hours tbody td:nth-child(3)::before {
+	content: 'Cost: ';
+	font-weight: bold;
+}
+.hours tbody td:nth-child(4)::before {
+	content: 'Notes: ';
+	font-weight: bold;
+}
+
+.hours tbody td:nth-child(4) {
+	margin-bottom: 2em;
+}
+
+.hours tbody td:not(:nth-child(1)) {
+	margin-left: 1em;
+}
+}

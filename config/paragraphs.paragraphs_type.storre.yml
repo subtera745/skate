@@ -1,0 +1,9 @@
+uuid: 7cea60e5-de25-49a3-9718-fa917d146075
+langcode: en
+status: true
+dependencies: {  }
+id: storre
+label: storre
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

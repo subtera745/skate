@@ -1,0 +1,27 @@
+uuid: 412b6792-1e90-4dd0-8b7f-fa7efc31cadc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gear.field_gearstore
+    - node.type.gear
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.gear.teaser
+targetEntityType: node
+bundle: gear
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_gearstore: true

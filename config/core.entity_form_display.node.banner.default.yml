@@ -1,0 +1,55 @@
+uuid: 6aabb2fe-1e8b-4b46-a232-aa048ffacf6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.banner.field_banner
+    - field.field.node.banner.field_viewselectforbanner
+    - image.style.thumbnail
+    - node.type.banner
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.banner.default
+targetEntityType: node
+bundle: banner
+mode: default
+content:
+  field_banner:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_viewselectforbanner:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  moderation_state: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

@@ -1,0 +1,30 @@
+uuid: a56d955e-5b67-4fe1-a0c7-820a16e9b5e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.duplicate_of_about
+  module:
+    - system
+    - views
+  theme:
+    - skate
+id: views_block__duplicate_of_about_block_4
+theme: skate
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:duplicate_of_about-block_4'
+settings:
+  id: 'views_block:duplicate_of_about-block_4'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

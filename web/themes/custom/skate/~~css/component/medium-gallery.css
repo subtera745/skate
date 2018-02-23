@@ -1,0 +1,9 @@
+
+/*this controls the taxonomy picture above the taxonomy gallery.*/
+.taxgallery .layout__region--content > div {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+}

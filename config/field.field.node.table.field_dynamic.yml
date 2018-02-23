@@ -1,0 +1,22 @@
+uuid: 506f4578-ad50-4e65-87bf-301ea9fec5be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dynamic
+    - node.type.table
+  module:
+    - text
+id: node.table.field_dynamic
+field_name: field_dynamic
+entity_type: node
+bundle: table
+label: Dynamic
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

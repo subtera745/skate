@@ -1,0 +1,66 @@
+.party .views-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+/*the below may need to be on like a main body page so that way all the word fields are set the same.*/
+
+.party .views-row .views-field-field-dynamic {
+
+	width: 18.750em;
+	padding: 1.5em;
+}
+
+.views-row .views-field-field-image {
+	align-self: center;
+}
+
+.party .views-row:nth-child(1) .views-field-field-dynamic h2 {
+	color:rgb(255,184,106);
+}
+
+.party .views-row:nth-child(2) .views-field-field-dynamic h2 {
+	color: rgb(255,147,173);
+}
+
+.party .views-row:nth-child(3) .views-field-field-dynamic h2 {
+	color:rgb(190,163,204);
+}
+
+.party .views-row:nth-child(4) .views-field-field-dynamic h2 {
+	
+}
+
+.party .views-row:nth-child(5) .views-field-field-dynamic h2 {
+	color:rgb(123,216,223);
+}
+
+.party .views-row:nth-child(6) .views-field-field-dynamic h2 {
+	color: rgb(119,219,147) ;
+}
+
+.party .views-row:nth-child(7) .views-field-field-dynamic h2 {
+	color: rgb(255,246,9);
+}
+
+
+.party .views-row:nth-child(even){
+	flex-direction: row-reverse;
+}
+
+.party .views-row:nth-child(1)  {}
+.party .views-row:nth-child(2) {}
+.party .views-row:nth-child(3)  {}
+.party .views-row:nth-child(4) {
+	justify-content: center;
+}
+.party .views-row:nth-child(5)  {}
+.party .views-row:nth-child(6)  {}
+.party .views-row:nth-child(7)  {}
+.party .views-row:nth-child(8) {
+		justify-content: center;
+}

@@ -1,0 +1,44 @@
+
+
+@media screen and (min-width: 200px) {
+
+
+  .page-node-14 .layout-container main .layout-content div article div .layout--onecol .layout__region {
+
+		display: flex;
+		flex-flow: column;
+		flex-flow: wrap;
+		justify-content: space-around;
+		align-items: center;
+}
+
+.page-node-14 .layout-container main .layout-content div article div .layout--onecol .layout__region  div img {
+	margin:5%;
+	align-self: center;
+}
+
+.page-node-14 .layout-container main .layout-content div article div .layout--onecol .layout__region  div {
+	margin: 5%;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+.page-node-14 .layout-container main .layout-content div article div .layout--onecol .layout__region {
+
+		display: flex;
+		flex-flow: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+
+}
+
+.page-node-14 .layout-container main .layout-content div article div .layout--onecol .layout__region  div {
+	margin: 5%;
+	max-width: 50%
+}
+
+}
+
+/*//need to figure out how to make the words not be as scrunched up. maybe apply flexbox to them so they stack together correctly. also need to fix the margins.*/

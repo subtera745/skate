@@ -1,0 +1,73 @@
+uuid: be6d7829-3506-4291-9b4e-871484ab0d09
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.dynamic
+  module:
+    - ckeditor
+format: dynamic
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+            - Indent
+            - Outdent
+            - HorizontalRule
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+        -
+          name: Tools
+          items:
+            - Source
+        -
+          name: Everything
+          items:
+            - Table
+            - '-'
+            - SpecialChar
+            - '-'
+            - Format
+            - Styles
+            - '-'
+            - '-'
+            - ShowBlocks
+            - '-'
+            - Maximize
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

@@ -1,0 +1,75 @@
+uuid: 3568f5f1-379c-41e7-97c2-1e06a2141107
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.centercontent.field_dynamic
+    - field.field.node.centercontent.field_image
+    - field.field.node.centercontent.field_imageright
+    - field.field.node.centercontent.field_view_selection
+    - image.style.thumbnail
+    - node.type.centercontent
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.centercontent.default
+targetEntityType: node
+bundle: centercontent
+mode: default
+content:
+  field_dynamic:
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_imageright:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_view_selection:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  moderation_state: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

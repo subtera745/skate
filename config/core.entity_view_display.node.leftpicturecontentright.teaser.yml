@@ -1,0 +1,29 @@
+uuid: 7bc5d7d3-dbb1-459f-b218-add9d7edd3d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.leftpicturecontentright.field_dynamic
+    - field.field.node.leftpicturecontentright.field_image
+    - node.type.leftpicturecontentright
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.leftpicturecontentright.teaser
+targetEntityType: node
+bundle: leftpicturecontentright
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_dynamic: true
+  field_image: true

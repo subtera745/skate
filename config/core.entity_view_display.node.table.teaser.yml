@@ -1,0 +1,27 @@
+uuid: a1925cfc-8381-477c-bb22-f23a6783a6f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.table.field_dynamic
+    - node.type.table
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.table.teaser
+targetEntityType: node
+bundle: table
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_dynamic: true

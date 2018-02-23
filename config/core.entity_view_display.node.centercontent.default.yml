@@ -1,0 +1,54 @@
+uuid: 776a158b-6f5b-4a02-8acd-4ef4454a8d47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.centercontent.field_dynamic
+    - field.field.node.centercontent.field_image
+    - field.field.node.centercontent.field_imageright
+    - field.field.node.centercontent.field_view_selection
+    - node.type.centercontent
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.centercontent.default
+targetEntityType: node
+bundle: centercontent
+mode: default
+content:
+  field_dynamic:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_imageright:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  addtoany: true
+  field_view_selection: true
+  links: true

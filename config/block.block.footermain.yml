@@ -1,0 +1,24 @@
+uuid: 2b12a1ee-f145-4c2c-874b-a25aeac905ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-main
+  module:
+    - system
+  theme:
+    - skate
+id: footermain
+theme: skate
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer-main'
+settings:
+  id: 'system_menu_block:footer-main'
+  label: 'Footer Main'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

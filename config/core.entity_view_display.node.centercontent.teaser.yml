@@ -1,0 +1,29 @@
+uuid: 5625b778-3533-4e01-a1d5-0206414e918b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.centercontent.field_image
+    - field.field.node.centercontent.field_imageright
+    - node.type.centercontent
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.centercontent.teaser
+targetEntityType: node
+bundle: centercontent
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_image: true
+  field_imageright: true

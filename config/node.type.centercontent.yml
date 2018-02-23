@@ -1,0 +1,17 @@
+uuid: 17ff434f-2181-4d12-acc2-278aec3270ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: CenterContent
+type: centercontent
+description: 'Content centered, image on the left and right'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

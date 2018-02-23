@@ -67,7 +67,16 @@
         "drupal/lightgallery": "^1.0",
         "drupal/social_media_links": "^2.6",
         "drupal/smtp": "^1.0@beta",
-        "drupal/webform": "^5.0@RC"       
+        "drupal/webform": "^5.0@RC",
+        "drupal/paragraphs": "^1.2",
+        "drupal/inline_entity_form": "^1.0@beta",
+        "drupal/draggableviews": "^1.0",
+        "drupal/viewsreference": "^1.2",
+        "drupal/superfish": "^1.2",
+        "drupal/responsive_menu": "^2.6",
+        "drupal/simple_mobile_menu": "^1.0",
+        "drupal/simple_responsive_table": "^2.1",
+        "drupal/ckeditor_tableselection": "^1.0"       
     },
     "require-dev": {
         "behat/mink": "~1.7",

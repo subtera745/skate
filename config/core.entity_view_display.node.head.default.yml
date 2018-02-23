@@ -1,0 +1,33 @@
+uuid: 8744c356-0885-4902-9e85-88c9620c6f1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.head.field_banner
+    - node.type.head
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.head.default
+targetEntityType: node
+bundle: head
+mode: default
+content:
+  field_banner:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  addtoany: true
+  links: true

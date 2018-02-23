@@ -1,0 +1,9 @@
+uuid: 5003b4db-f68f-4635-a110-e2f77f05affb
+langcode: en
+status: true
+dependencies: {  }
+name: Pages
+vid: pages
+description: 'Taxonomy that lables the content to apply to the appropriate page'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,22 @@
+uuid: d826f09a-31a7-4138-b27e-7ae443382272
+langcode: en
+status: true
+dependencies:
+  theme:
+    - skate
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: skate_local_tasks
+theme: skate
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,253 @@
+/*really only need two, maybe three media queries.
+by this i mean like, all phones display the same thing.
+so like, start out tiny, iphone 5 to the phablets
+then hit the common tablet sizes,
+then finally we gonna hit the desktop market. 
+which i had pretty much already had cornered.
+along with this id like to add some slight hover color to the font 
+and a faint background appear on the nav buttons.
+so, for now that is what i'm going to attempt to accomplish 
+with this css code. 
+so, what, min width 300? then 768 for ipad? then 1200 for laptops and up? 
+cascading style sheet, the more you go down,
+ the more the stuff up top gets over written. 
+so the css we put at the top will just generically apply to all of the page.
+so things like background color, button color, 
+button styling, text style, text color
+then as we move down we focus more on the layout side of things 
+and putting things where they go. 
+sound good? lets give this thing a shot.*/
+
+/*ems are relative to the parent element.
+so <div font-size=16px>
+		<div font size= 1em >
+		then the content in here is 1em,
+		 which is relative to that parent element
+		</div>
+	</div>*/
+
+header {
+	font-size: 16px;
+}
+
+.navbar-brand {
+    color: black;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-decoration: bold;
+    letter-spacing: .06em;
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
+    
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*displays the whole artist and social media buttons block*/
+#block-style-socialmedialinks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+	align-self: center;
+    /*padding: 1em 1em;*/
+}
+
+/*below displays and controls the artist=christine riutzel*/
+#block-style-socialmedialinks h2 {
+    margin-top: 0.83em;
+    margin-bottom: 0em;
+    font-size: 1em;
+    color: #4c4c4c;
+
+}
+/*below controls the social media buttons*/
+.social-media-links--platforms {
+    margin-bottom: 0.83em;
+    margin-top: 0em;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-media-links--platforms > li > a {
+    color: #4c4c4c;
+}
+
+
+/*so here we start with our first media query
+as you can tell it's min width 200.
+200 for the fact that i have no idea if theres anything smaller
+but, it's ok for the nav bar header because everythings gonna be centerd.*/
+
+@media screen and (min-width: 200px) {
+  
+/*  this is the flexbox container for the navigation header*/
+.layout-container > header > div {
+	display: flex;
+	flex-flow: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-around;
+
+}
+
+/*defines width of page logo, so it can center itself.*/
+#block-style-branding {
+	width: 19em;
+	align-self: center;
+
+}
+
+#block-style-mainnavigation-2{
+	/*width: 19em;*/
+	display: flex;
+	flex-flow: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+/*the below styling deals with the navigation menu, 
+allowing the individual buttons to flex. also gets rid of the little dot.*/
+#block-style-mainnavigation-2 > ul {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 0;
+	
+}
+
+
+/*this is old misplaced css code
+*//*> li > a {
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3;
+  color: black;
+  background: none;
+  line-height: 1;
+  margin: 0.5em;
+  /*padding: 1em 2em;*/
+/*  font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal;
+} */
+
+#block-style-mainnavigation-2 > ul > li{
+margin: .15em;
+/*  align-items: center;
+*/}
+
+#block-style-mainnavigation-2 > ul > li > a {
+  margin: 0 auto;
+  font-size: 1.0em;
+  padding: .65em .75em;
+  display: block;
+  background-color: #4c4c4c;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  margin: .15em;
+  align-items: center;
+}
+#block-style-mainnavigation-2 > ul > li > a:hover {
+  background-color: #ffffff;
+  color: #4c4c4c;
+  border-color: #4c4c4c;
+  text-decoration: none;
+}
+
+}
+
+/*Here we start our second media query. lets set it a min width of 760
+that way we hit all the phablets. actually idk if i want this to be 760 tablet, or just gor for the 1024laptop. will ask client.*/
+
+@media screen and (min-width: 1024px) {
+  
+ /*this is the flexbox container for the navigation header*/
+.layout-container > header > div {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+/*defines width of page logo, so it can center itself.*/
+#block-style-branding {
+	width: 19em;
+	align-self: center;
+
+}
+
+#block-style-mainnavigation-2{
+	width: 19em;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+/*the below styling deals with the navigation menu, 
+allowing the individual buttons to flex. also gets rid of the little dot.*/
+#block-style-mainnavigation-2 > ul {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	align-self: center;
+	list-style-type: none;
+	padding: 0;
+	height: 5em;
+	
+}
+
+
+
+#block-style-mainnavigation-2 > ul > li{
+margin: .15em;
+align-items: center;
+}
+
+#block-style-mainnavigation-2 > ul > li > a {
+  margin: 0 auto;
+  font-size: 1.0em;
+  padding: .65em .75em;
+  display: block;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  color: #4c4c4c;
+  font-weight: 300;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  margin: .15em;
+  align-items: center;
+}
+#block-style-mainnavigation-2 > ul > li > a:hover {
+  background-color: #ffffff;
+  color: #4c4c4c;
+  border-color: #4c4c4c;
+  text-decoration: none;
+}
+
+}

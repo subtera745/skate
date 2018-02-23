@@ -1,0 +1,22 @@
+uuid: 6788e8aa-68f5-49e9-b011-f7a06f8be491
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dynamic
+    - node.type.rightpicturecontentleft
+  module:
+    - text
+id: node.rightpicturecontentleft.field_dynamic
+field_name: field_dynamic
+entity_type: node
+bundle: rightpicturecontentleft
+label: Dynamic
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

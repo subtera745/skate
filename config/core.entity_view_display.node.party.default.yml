@@ -1,0 +1,35 @@
+uuid: f41e923b-4cff-437c-9cad-f628d0623207
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.party.field_partyblock1
+    - field.field.node.party.field_view_selection
+    - node.type.party
+  module:
+    - entity_reference_revisions
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.party.default
+targetEntityType: node
+bundle: party
+mode: default
+content:
+  field_partyblock1:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_view_selection: true
+  links: true

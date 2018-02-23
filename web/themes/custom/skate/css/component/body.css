@@ -1,0 +1,13 @@
+.layout-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.layout-container > * {
+	max-width: 75em;
+	align-self: center;
+	font-family: 'Source Sans Pro', sans-serif;
+/*	https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro
+*/}

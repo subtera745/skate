@@ -1,0 +1,50 @@
+footer > * {
+	max-width: 75em;
+	align-self: center;
+	font-family: 'Source Sans Pro', sans-serif;
+/*	https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro
+*/}
+
+
+#footerbase {
+	background-color: #ffda09;
+	max-width: 75em;
+	height: 1em;
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	background-color: #7bd8df;
+}
+
+footer .region-footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .region nav > ul {
+	padding: 1em 3em;
+}
+
+footer .region nav > ul li{
+	list-style-type: none;
+
+}
+
+footer .region nav > ul li a{
+text-decoration: none;
+color: white;	
+}
+
+footer .region-footer #block-views-block-footer-contact-block-1 {
+	
+}
+
+.footer-contact .views-row .views-field-field-dynamic .field-content {
+	color: white;
+	padding: 1em 3em;
+}

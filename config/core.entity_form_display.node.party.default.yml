@@ -1,0 +1,51 @@
+uuid: ff627719-526e-4fc4-a232-e42defe2574e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.party.field_partyblock1
+    - field.field.node.party.field_view_selection
+    - node.type.party
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.party.default
+targetEntityType: node
+bundle: party
+mode: default
+content:
+  field_partyblock1:
+    type: options_buttons
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_view_selection:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  moderation_state: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

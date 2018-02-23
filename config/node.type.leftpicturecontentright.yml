@@ -1,0 +1,17 @@
+uuid: c83a5a02-66de-4204-be04-ac76ddc00b31
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: LeftPictureContentRight
+type: leftpicturecontentright
+description: 'Content where the picture is on the left, and the content is on the right.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

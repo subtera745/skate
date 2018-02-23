@@ -1,0 +1,47 @@
+
+/*this controls the taxonomy blocks on the mediums page. turns them into a flexbox so they adjust to various screen sizes.*/
+.medium-tax {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+.medium-tax > .views-row {
+	margin: 1em 1em;
+
+}
+
+/*the below selections control the taxonomy header and places it upon the taxonomy images, so it looks fancy.*/
+/*.medium-tax > .views-row > .layout {
+	position: relative;
+}
+
+.medium-tax > .views-row h2 {
+	position: absolute;
+	box-sizing: border-box;
+	width: 150px;
+	background-color: #4c4c4c;
+  	border: 1px solid transparent;
+  	color: #ffffff;
+	font-weight: 300;
+	margin-left: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}*/
+
+.medium-tax > .views-row .contextual-region > h2 > a {
+	color: #FFFFFF;
+    text-decoration: none;
+    font-size: 0;
+}
+
+.medium-tax > .views-row h2 {
+	font-size:0;
+}
+
+.layout-content div #block-style-page-title > h1 {
+	font-size:0;
+	background-color: transparent;
+}

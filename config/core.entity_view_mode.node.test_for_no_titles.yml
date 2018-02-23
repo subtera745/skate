@@ -1,0 +1,10 @@
+uuid: 2164f925-85b5-434e-8c24-ea3b09bb5c78
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.test_for_no_titles
+label: 'test for no titles'
+targetEntityType: node
+cache: true

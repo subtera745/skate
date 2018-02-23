@@ -1,0 +1,21 @@
+/*controls the recent-work pages gallery
+*/
+.lightgallery {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   	padding: 0 0;
+   }
+    
+.homegallery .lightgallery-wrapper .lightgallery  > li {
+        padding: 1%;
+    }
+
+    /*#lightgallery-5a68d58f626f5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }*/

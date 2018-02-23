@@ -1,0 +1,17 @@
+uuid: 79815240-c23f-4cbb-9ddd-4d5b93fccb9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Content
+type: content
+description: 'Just words'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

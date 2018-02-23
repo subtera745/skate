@@ -1,0 +1,22 @@
+uuid: 56afc6a0-fdda-4032-93eb-c985c69d42ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.centercontent
+id: node.centercontent.status
+field_name: status
+entity_type: node
+bundle: centercontent
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

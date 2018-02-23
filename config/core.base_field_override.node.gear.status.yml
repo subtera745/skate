@@ -1,0 +1,22 @@
+uuid: 960b0776-3a47-4df7-951e-9d46eab1cc16
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gear
+id: node.gear.status
+field_name: status
+entity_type: node
+bundle: gear
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

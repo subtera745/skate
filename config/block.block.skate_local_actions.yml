@@ -1,0 +1,20 @@
+uuid: 1d76e697-53b3-4f51-8fe1-82c5799df1af
+langcode: en
+status: true
+dependencies:
+  theme:
+    - skate
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: skate_local_actions
+theme: skate
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

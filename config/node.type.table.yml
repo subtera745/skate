@@ -1,0 +1,17 @@
+uuid: a3258380-ac7c-4d4b-8882-3dfe3e4f8b1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Table
+type: table
+description: 'Text box with dynamic text for a table.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

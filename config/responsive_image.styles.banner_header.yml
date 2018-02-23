@@ -1,0 +1,11 @@
+uuid: 687d96c8-5a45-4a00-8b1f-f10e6c7dd67e
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.medium
+id: banner_header
+label: 'Banner Header'
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: medium

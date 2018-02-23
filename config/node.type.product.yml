@@ -1,0 +1,17 @@
+uuid: fdc18d5d-6aff-4f7b-b4db-5e31cd1bced3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Product
+type: product
+description: 'Displays image for a product to link to the rcskate page'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

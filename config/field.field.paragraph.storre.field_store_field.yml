@@ -1,0 +1,28 @@
+uuid: e1c99581-be25-4adf-8d65-3ffe55c95d2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_store_field
+    - node.type.product
+    - paragraphs.paragraphs_type.storre
+id: paragraph.storre.field_store_field
+field_name: field_store_field
+entity_type: paragraph
+bundle: storre
+label: 'store product'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product: product
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: f0acd009-b7c8-4a32-8bcf-e96aaaaa3a36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dynamic
+    - node.type.centercontent
+  module:
+    - text
+id: node.centercontent.field_dynamic
+field_name: field_dynamic
+entity_type: node
+bundle: centercontent
+label: Dynamic
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

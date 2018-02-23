@@ -1,0 +1,17 @@
+uuid: 57ac440e-5113-4e18-b00f-9299528be831
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: gear
+type: gear
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

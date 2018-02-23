@@ -1,0 +1,28 @@
+uuid: 78137f7a-44a3-442e-b173-90cf2a053a41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_store_info
+    - node.type.content
+    - paragraphs.paragraphs_type.storre
+id: paragraph.storre.field_store_info
+field_name: field_store_info
+entity_type: paragraph
+bundle: storre
+label: 'store info'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      content: content
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

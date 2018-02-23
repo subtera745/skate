@@ -1,0 +1,175 @@
+/*gotta redo some stuff, pretty much everywhere to make sure it all works when logged in and logged out. currently here it does not.
+also, gotta igure out correct margins and stuff.*/
+
+/*@media screen and (min-width: 200px) {
+
+.form-text{
+	width: 75%;
+}
+
+.form-email {
+	width: 75%;
+}
+
+.form-select {
+	width: 75%;
+}
+
+.js-form-item {
+	display: flex;
+	flex-flow: column;
+	flex-wrap: nowrap;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+
+#edit-terms-checkbox {
+	margin-top: .25em;
+}
+
+.webform-button--submit {
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+}*/
+
+@media screen and (min-width: 200px) {
+.layout .layout__region div #webform-submission-commissions-form-node-6-add-form {
+		/*width: 275px;*/
+		display: flex;
+		flex-flow: column;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		margin-left: 10%;
+		margin-right: 10%
+				}
+
+	#webform-submission-commissions-form-node-6-add-form div div input {
+		margin-top: 	0.625em;
+		margin-bottom: 	0.625em;
+		max-width: 75%
+	}
+
+	#webform-submission-commissions-form-node-6-add-form div div select {
+		margin-top: 	0.625em;
+		margin-bottom: 	0.625em;
+		max-width: 75%;
+
+	}
+
+	#webform-submission-commissions-form-node-6-add-form div div {
+		display: flex;
+		flex-flow: column;
+		flex-wrap: nowrap;
+
+
+
+	}
+#edit-subject{
+		margin-top: 	0.625em;
+		margin-bottom: 	0.625em;
+		max-width: 75%
+	}
+
+	#edit-deadline {
+		margin-top: 	0.625em;
+		margin-bottom: 	0.625em;
+		max-width: 75%;
+
+	}
+#edit-size-of-piece--description + .form-select {
+
+	margin-top: 	0.625em;
+	margin-bottom:	0.625em;
+}
+
+#webform-submission-commissions-form-node-6-add-form .form-type-webform-terms-of-service{
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap-reverse;
+	justify-content: flex-start; 
+}
+#edit-terms-of-service{
+
+	margin-right: 	0.625em;
+
+	}
+
+#edit-submit {
+	margin-top: 	0.625em;
+	margin-bottom:	0.625em;
+	max-width: 75%;
+}
+
+#edit-contact--wrapper div input{
+
+}
+
+
+}
+/*
+@media screen and (min-width: 1204px) { 
+
+.layout .layout__region div #webform-submission-commissions-form-node-6-add-form {
+		width: 275px;
+		display: flex;
+		flex-flow: column;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		margin-left: 25%;
+
+	}
+
+	#webform-submission-commissions-form-node-6-add-form div div input {
+		margin-top: 	0.625em;
+		margin-bottom: 	0.625em;
+
+	}
+
+	#webform-submission-commissions-form-node-6-add-form div div select {
+		margin-top: 	0.625em;
+		margin-bottom: 	0.625em;
+
+	}
+
+	#webform-submission-commissions-form-node-6-add-form div div {
+		max-width: 200px;
+
+	}
+	/*#webform-submission-commissions-form-node-6-add-form div div #edit-subject{
+		margin-top: 	0.625em;
+		margin-bottom: 	0.625em;
+
+	}
+
+	#edit-deadline {
+		margin-top: 	0.625em;
+		margin-bottom: 	0.625em;
+
+	}
+#edit-size-of-piece--description + .form-select {
+
+	margin-top: 	0.625em;
+	margin-bottom:	0.625em;
+}
+
+#webform-submission-commissions-form-node-6-add-form .form-type-webform-terms-of-service{
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: flex-start; 
+}
+#edit-terms-of-service{
+
+	margin-right: 	0.625em;
+
+	}
+
+#edit-submit {
+	margin-top: 	0.625em;
+	margin-bottom:	0.625em;
+}
+
+}*/

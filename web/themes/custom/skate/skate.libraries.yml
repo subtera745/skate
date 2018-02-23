@@ -1,0 +1,20 @@
+global-js:
+  js:
+    js/main.js: {}
+
+global-styling:
+
+    global-styling:
+    css:
+       theme:
+          css/normalize.css: {}
+          css/component/banner.css: {}
+          css/component/mainnav.css: {}
+          css/component/body.css: {}
+          css/component/home.css: {}
+          css/component/parties.css: {}
+          css/component/gear.css: {}
+          css/component/contact.css: {}
+          css/component/about.css: {}
+          css/component/footer.css: {}
+          css/component/hours.css: {}

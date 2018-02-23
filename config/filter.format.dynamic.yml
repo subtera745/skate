@@ -1,0 +1,17 @@
+uuid: 29262a27-3a69-41f2-8206-43e57f204a77
+langcode: en
+status: true
+dependencies: {  }
+name: Dynamic
+format: dynamic
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <img src alt data-entity-type data-entity-uuid> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <u> <hr> <p> <h1> <pre>'
+      filter_html_help: true
+      filter_html_nofollow: false

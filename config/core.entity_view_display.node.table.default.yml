@@ -1,0 +1,33 @@
+uuid: 5aaf345a-60a5-44f2-8159-40c8e1d36200
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.table.field_dynamic
+    - field.field.node.table.field_view_selection
+    - node.type.table
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.table.default
+targetEntityType: node
+bundle: table
+mode: default
+content:
+  field_dynamic:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  addtoany: true
+  field_view_selection: true
+  links: true

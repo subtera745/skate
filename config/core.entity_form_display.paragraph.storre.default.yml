@@ -1,0 +1,53 @@
+uuid: b8f44ef9-ab2e-4c80-b3c0-9fe6e47512f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.storre.field_store_bannerimg
+    - field.field.paragraph.storre.field_store_field
+    - field.field.paragraph.storre.field_store_info
+    - paragraphs.paragraphs_type.storre
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: paragraph.storre.default
+targetEntityType: paragraph
+bundle: storre
+mode: default
+content:
+  field_store_bannerimg:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_store_field:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_store_info:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

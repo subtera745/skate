@@ -1,0 +1,28 @@
+uuid: 55eff113-aa87-4775-9e4f-7b9f3eede298
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.table
+    - field.field.block_content.table.body
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: block_content.table.default
+targetEntityType: block_content
+bundle: table
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: d145c883-c1c1-487f-a43a-cdef566fbd8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.duplicate_of_about
+  module:
+    - system
+    - views
+  theme:
+    - skate
+id: views_block__duplicate_of_about_block_3
+theme: skate
+region: content
+weight: 1
+provider: null
+plugin: 'views_block:duplicate_of_about-block_3'
+settings:
+  id: 'views_block:duplicate_of_about-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /gear
+    negate: false
+    context_mapping: {  }

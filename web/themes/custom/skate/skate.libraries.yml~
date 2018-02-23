@@ -1,0 +1,20 @@
+global-js:
+  js:
+    js/main.js: {}
+
+global-styling:
+
+    global-styling:
+    css:
+       theme:
+          css/normalize.css: {}
+          css/style.css: {}
+          css/component/mainpage.css: {}
+          css/component/navbarheader.css: {}
+          css/component/gallery.css: {}
+          css/component/medium.css: {}
+          css/component/medium-gallery.css: {}
+          css/component/medium-selection.css: {}
+          css/component/webform-fields.css: {}
+          css/component/about.css: {}
+          css/component/contact.css: {}

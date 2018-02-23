@@ -1,0 +1,20 @@
+uuid: b194a6f8-2641-4b8a-9cfc-86204a3c82bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - paragraphs
+id: paragraph.field_store_field
+field_name: field_store_field
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

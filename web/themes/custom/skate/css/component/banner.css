@@ -1,0 +1,9 @@
+/*ok, so essentially i think with the banner image i need to use the viewport terms for width,
+ so that way the image scales correctly. if get stuck look into scaleable background image html 5.*/
+
+ .head .views-row div .layout .layout__region div img {
+ 	max-width:100%;
+ 	height: auto;
+ }
+
+/* got em*/

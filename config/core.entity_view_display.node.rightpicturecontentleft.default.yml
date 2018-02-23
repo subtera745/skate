@@ -1,0 +1,44 @@
+uuid: 255b4621-3ac8-4f54-95a9-e73839de0331
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rightpicturecontentleft.field_dynamic
+    - field.field.node.rightpicturecontentleft.field_image
+    - field.field.node.rightpicturecontentleft.field_view_selection
+    - node.type.rightpicturecontentleft
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.rightpicturecontentleft.default
+targetEntityType: node
+bundle: rightpicturecontentleft
+mode: default
+content:
+  field_dynamic:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  addtoany: true
+  field_view_selection: true
+  links: true

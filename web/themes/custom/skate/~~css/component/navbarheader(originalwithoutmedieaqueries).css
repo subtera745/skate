@@ -1,0 +1,133 @@
+
+
+/*.field--name-node-title {
+    background: lightblue;
+    text-align: right;
+}*/
+
+h2 {
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*.field--name-field-art {
+    left: 50%;
+    top-margin:5%;
+}*/
+
+.navbar-nav{
+    text-align: right;
+    align-content: end;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal;
+    /*width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;*/
+}
+
+.navbar-brand {
+    color: black;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-decoration: bold;
+    letter-spacing: .06em;
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
+    
+}
+
+/*.region-content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}*/
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal;
+}
+/*controls the entire header*/
+header > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+}
+
+/*displays the whole artist and social media buttons block*/
+#block-style-socialmedialinks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+/*below displays and controls the artist=christine riutzel*/
+#block-style-socialmedialinks h2 {
+    margin-top: 0.83em;
+    margin-bottom: 0em;
+}
+/*below controls the social media buttons*/
+.social-media-links--platforms {
+    margin-bottom: 0.83em;
+    margin-top: 0em;
+}
+
+/*.menu .nav .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}*/
+
+
+
+#block-style-mainnavigation-2 > ul{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: none;
+  list-style: none;
+  margin:0 0;
+  padding: 0 0;
+
+}
+
+#block-style-mainnavigation-2 > ul > li > a {
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3;
+  color: black;
+  background: none;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*#block-style-mainnavigation-2 > ul > li {
+background-color: red;
+}*/

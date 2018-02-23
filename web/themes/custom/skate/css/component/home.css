@@ -1,0 +1,148 @@
+/*.home {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*ok. so, i need to make sure all the text boxes are the same width.
+ that way they go together decently with the images and flex correctly. I dont know why I didn't think of this last night.
+
+.home .views-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+/*the below may need to be on like a main body page so that way all the word fields are set the same.
+
+.home .views-row .views-field-field-dynamic {
+
+	width: 18.750em;
+	padding: 1.5em;
+}
+
+.views-row .views-field-field-image {
+	align-self: center;
+}
+
+.home .views-row:nth-child(1) .views-field-field-dynamic h2 {
+	color:rgb(255,184,106);
+}
+
+.home .views-row:nth-child(2) .views-field-field-dynamic h2 {
+	color: rgb(255,147,173);
+}
+
+.home .views-row:nth-child(3) .views-field-field-dynamic h2 {
+	color:rgb(190,163,204);
+}
+
+.home .views-row:nth-child(1){
+
+}
+
+.home .views-row:nth-child(2){
+	flex-direction: row-reverse;
+}
+
+.home .views-row:nth-child(3){
+	
+}*/
+
+/*everything above is old code. but i thought i'd leave it there just in case, i wanted something original to work with.
+i have a hoarding problem. anyhow. below is literally the exact same thing as the about page. 
+I don't know why I bothered having two seperate css pages for both when i could've just had one. alwell.*/
+
+.home .views-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+
+
+}
+
+/*the below may need to be on like a main body page so that way all the word fields are set the same.*/
+
+.home .views-row .views-field-field-dynamic {
+
+	/*width: 18.750em;*/
+	/*padding: 1.5em;*/
+	/*margin-top:.5em;*/
+}
+
+.home .views-row .views-field-field-image {
+	/*margin: .5em;*/
+}
+
+.views-row .views-field-field-image {
+	align-self: center;
+}
+
+/*the next three control the heading colors of the content.*/
+
+.home .views-row:nth-child(1) h2 {
+	color:rgb(255,184,106);
+	margin-top: .5em;
+}
+
+.home .views-row:nth-child(2) h2 {
+	color: rgb(255,147,173);
+		margin-top: .5em;
+
+}
+
+.home .views-row:nth-child(3)  h2 {
+	color:rgb(190,163,204);
+		margin-top: .5em;
+
+}
+
+/*the next three control the layout of the view fields.*/
+
+.home .views-row:nth-child(1){
+
+}
+
+.home .views-row:nth-child(2){
+	flex-direction: row-reverse;
+}
+
+.home .views-row:nth-child(3){
+	
+}
+
+
+/*the next three control the margins for the textual content. this is needed
+because one of the views-row is reversed. so just saying margin left for all of them won't work. */
+
+.home .views-row:nth-child(1) .views-field-field-dynamic  {
+	margin-left: 3em;
+	padding-left: 8em;
+}
+
+.home .views-row:nth-child(2) .views-field-field-dynamic  {
+	margin-right: 3em;
+	padding-right:8em;
+	/*background-color: lime;*/
+}
+
+.home .views-row:nth-child(3) .views-field-field-dynamic  {
+	margin-left: 3em;
+	padding-left: 8em;
+	/*background-color: pink;*/
+}
+
+.home .views-row:nth-child(1) .views-field-field-image img {
+	margin-right: 2em;
+}
+.home .views-row:nth-child(2) .views-field-field-image img {
+	margin-left: 2em;
+}
+.home .views-row:nth-child(3) .views-field-field-image img {
+	margin-right: 2em;
+}

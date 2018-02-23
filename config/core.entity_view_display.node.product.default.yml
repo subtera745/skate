@@ -1,0 +1,35 @@
+uuid: 3293f35e-3881-4312-a663-1719b6a4ef6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.product.field_image
+    - field.field.node.product.field_view_selection
+    - node.type.product
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.product.default
+targetEntityType: node
+bundle: product
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  addtoany: true
+  field_view_selection: true
+  links: true

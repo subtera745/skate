@@ -1,0 +1,27 @@
+uuid: dbefd639-a303-4f91-a37d-ad7c826373b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.party.field_partyblock1
+    - node.type.party
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.party.teaser
+targetEntityType: node
+bundle: party
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_partyblock1: true

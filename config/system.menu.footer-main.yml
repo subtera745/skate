@@ -1,0 +1,8 @@
+uuid: e8e6eb15-16d1-4a53-8977-06aaf2f1dbfc
+langcode: en
+status: true
+dependencies: {  }
+id: footer-main
+label: 'Footer Main'
+description: 'Replica of the main menu, but in the footer'
+locked: false

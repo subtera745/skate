@@ -1,0 +1,29 @@
+uuid: 4614ee83-b66e-42d5-98b2-658b93577b06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_view_selection
+    - node.type.product
+    - taxonomy.vocabulary.pages
+id: node.product.field_view_selection
+field_name: field_view_selection
+entity_type: node
+bundle: product
+label: 'View Selection'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pages: pages
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

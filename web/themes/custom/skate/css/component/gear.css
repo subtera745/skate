@@ -1,0 +1,36 @@
+/*honestly, I'm probably gonna have to rebuild the entire gear page. this is kicking me in the ass so, im gonna move on towards something else
+for a minute. see if that helps me work something else out. 
+the biggeest issue here is the fact that all the rows have the same names. bigger issue is the fact I've got different content
+types in the same.
+id say.. something I could do, is do everything flex. target them all,
+then go down the deal, because css cascades, and make sure the abnner and info are down the list when i apply some type of block level element.*/
+
+
+/*ok. so im gonna make view blocks, or just regular blocks. 
+idk. they both display content. then im only going to limit those to their respective pages.
+*/
+
+.gear-banner{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.gear {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 1em;
+}
+
+.gear-content .views-row .views-field-field-dynamic .field-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.gear-content .views-row .views-field-field-dynamic h2 {
+	color: rgb(255,184,106);
+	
+}

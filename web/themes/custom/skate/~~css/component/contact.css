@@ -1,0 +1,42 @@
+		
+#webform-submission-contact-node-5-add-form {
+		display: flex;
+		flex-flow: column;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		margin-left: 10%;
+		margin-right: 10%
+	}
+
+	#webform-submission-contact-node-5-add-form .form-item {
+		display: flex;
+		flex-flow: column;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+	}
+
+	#webform-submission-contact-node-5-add-form .form-item .form-required {
+		margin-top:0.625em;
+		margin-bottom:	0.625em;
+	}
+
+	#edit-actions-submit {
+		margin-top: 0.625em;
+		margin-bottom:0.625em;
+	}
+
+	#edit-message {
+		max-width: 75%;
+	}
+
+	#edit-name {
+		max-width: 75%
+	}
+
+	#edit-email {
+		max-width: 75%
+	}
+
+	#edit-subject {
+		max-width: 75%;
+	}

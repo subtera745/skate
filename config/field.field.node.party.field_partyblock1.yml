@@ -1,0 +1,38 @@
+uuid: fcb914de-2b3c-4ccb-8769-a1b58847708d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_partyblock1
+    - node.type.centercontent
+    - node.type.content
+    - node.type.leftpicturecontentright
+    - node.type.party
+    - node.type.rightpicturecontentleft
+    - node.type.table
+  module:
+    - entity_reference_revisions
+id: node.party.field_partyblock1
+field_name: field_partyblock1
+entity_type: node
+bundle: party
+label: PartyBlock1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      centercontent: centercontent
+      content: content
+      leftpicturecontentright: leftpicturecontentright
+      rightpicturecontentleft: rightpicturecontentleft
+      table: table
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: centercontent
+field_type: entity_reference_revisions

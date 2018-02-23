@@ -1,0 +1,95 @@
+#block-skate-mainnavigation > ul li {
+
+	list-style-type: none;
+	/*flex-grow:1;*/
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+#block-skate-mainnavigation > ul li a {
+	text-decoration: none;
+}
+
+#block-skate-mainnavigation > ul {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left:0;
+	padding-right:0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #121366;
+
+}
+
+#block-skate-mainnavigation {
+	width: 100%;
+	text-align: center;
+}
+
+/*below shows the colors of the menu links.*/
+
+#block-skate-mainnavigation > ul li:nth-child(1) a{
+	color: rgb(255,246,9);
+}
+
+#block-skate-mainnavigation > ul li:nth-child(2) a{
+	color:rgb(255,184,106) ;
+}
+
+#block-skate-mainnavigation > ul li:nth-child(3) a{
+	color: rgb(255,147,173);
+}
+
+#block-skate-mainnavigation > ul li:nth-child(4) a{
+	color:rgb(190,163,204) ;
+}
+
+#block-skate-mainnavigation > ul li:nth-child(5) a{
+	color:rgb(123,216,223) ;
+}
+
+#block-skate-mainnavigation > ul li:nth-child(6) a{
+	color: rgb(119,219,147) ;
+}
+
+
+/*//below is what controls the fancy colors for the navbar decorations.
+*/
+#navdec {
+	max-width: 100%;
+	display:flex;
+	flex-direction: row;
+
+}
+
+#navdec span {
+	height: 2em;
+	flex-grow: 1;
+}
+
+#navdec span:nth-child(1) {
+	background-color: rgb(255,246,9);
+}
+
+#navdec span:nth-child(2) {
+	background-color: rgb(255,184,106);
+}
+
+#navdec span:nth-child(3) {
+	background-color: rgb(255,147,173);
+}
+
+#navdec span:nth-child(4) {
+	background-color: rgb(190,163,204);
+}
+
+#navdec span:nth-child(5) {
+	background-color: rgb(123,216,223);
+}
+
+#navdec span:nth-child(6) {
+	background-color: rgb(119,219,147);
+}

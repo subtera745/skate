@@ -1,0 +1,29 @@
+uuid: b4f5cab4-7cb9-4676-b2f4-ce357d9002ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_viewselectforbanner
+    - node.type.banner
+    - taxonomy.vocabulary.pages
+id: node.banner.field_viewselectforbanner
+field_name: field_viewselectforbanner
+entity_type: node
+bundle: banner
+label: View
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pages: pages
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
