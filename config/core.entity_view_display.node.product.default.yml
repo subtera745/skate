@@ -5,11 +5,14 @@ dependencies:
   config:
     - field.field.node.product.field_image
     - field.field.node.product.field_view_selection
+    - image.style.medium
     - node.type.product
   module:
     - field_layout
     - image
+    - image_link_attributes
     - layout_discovery
+    - linked_field
     - user
 third_party_settings:
   field_layout:
@@ -24,9 +27,20 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: ''
+      image_style: medium
       image_link: ''
-    third_party_settings: {  }
+    third_party_settings:
+      image_link_attributes:
+        advanced:
+          target: ''
+          class: ''
+          rel: ''
+        extended: 0
+      linked_field:
+        linked: '1'
+        type: custom
+        destination: 'https://www.rcsports.com/Skates.htm'
+        advanced: {  }
     type: image
     region: content
 hidden:

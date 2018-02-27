@@ -1,5 +1,80 @@
-.hours {
-	background-color: pink;
+
+
+/*for some reason, i need two display flex type properties to get all the tables to center on the page.*/
+
+.hours .views-row {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.hours .views-row .field-content{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-color: #e2e2e2;
+	border-bottom-color: #e2e2e2;
+}
+
+td, table, tr, th, tbody {
+	border-color: #e2e2e2;
+}
+
+.hours .views-row:nth-child(1) h2 {
+color: rgb(255,184,106) ;
+}
+
+.hours .views-row:nth-child(2) h2 {
+	color: rgb(255,147,173);	
+}
+
+.hours .views-row:nth-child(3) h2 {
+	color:rgb(190,163,204) ;	
+}
+
+
+
+.hours .views-row .views-field-field-dynamic .field-content table thead tr th:nth-child(1){
+		background-color: rgb(255,184,106) ;
+}
+
+.hours .views-row .views-field-field-dynamic .field-content table thead tr th:nth-child(2){
+		background-color: rgb(255,147,173);
+}
+
+.hours .views-row .views-field-field-dynamic .field-content table thead tr th:nth-child(3){
+		background-color:rgb(190,163,204) ;	
+}
+
+.hours .views-row .views-field-field-dynamic .field-content table thead tr th:nth-child(4)  {
+		background-color:rgb(123,216,223) ;
+}
+
+.hours .views-row .views-field-field-dynamic .field-content table thead tr th {
+	color: white;
+}
+
+
+/*ok, so below. I'm gonna be attaching a div inside of the events table to make this easier to target. also,
+because its gonna need a header, which i dont think the nth-children will be able to select. 
+so that div will have an id, so that way this can be properly styled.*/
+
+
+.hours .views-row .views-field-field-dynamic .field-content p{
+	padding: 2.5%;
+}
+
+.hours .views-row .views-field-field-dynamic .field-content p:nth-child(2) {
+		font-weight: 400;
 }
 
 @media (max-width: 40em) {
@@ -37,6 +112,13 @@
 }
 
 .hours tbody td:not(:nth-child(1)) {
+	margin-left: 2em;
+}
+
+
+.hours tbody tr td:nth-child(1) {
 	margin-left: 1em;
 }
+
+
 }

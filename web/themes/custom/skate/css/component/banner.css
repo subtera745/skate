@@ -1,9 +1,34 @@
 /*ok, so essentially i think with the banner image i need to use the viewport terms for width,
  so that way the image scales correctly. if get stuck look into scaleable background image html 5.*/
 
- .head .views-row div .layout .layout__region div img {
+ .head .views-row .views-field-field-banner .field-content img {
  	max-width:100%;
  	height: auto;
+ 	margin: 0%;
  }
+
+.head .views-row .views-field-field-banner .field-content {
+	width: auto;
+	height: auto;
+}
+
+.head .views-row .views-field-field-banner {
+	width: auto;
+	height: auto;
+}
+
+.head .views-row {
+	width: auto;
+	height: auto;
+}
+
+.head {
+	width: auto;
+	height: auto;
+}
+
+#block-views-block-header-block-1{
+	margin: 0;
+}
 
 /* got em*/

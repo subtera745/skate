@@ -76,7 +76,9 @@
         "drupal/responsive_menu": "^2.6",
         "drupal/simple_mobile_menu": "^1.0",
         "drupal/simple_responsive_table": "^2.1",
-        "drupal/ckeditor_tableselection": "^1.0"       
+        "drupal/ckeditor_tableselection": "^1.0",
+        "drupal/linked_field": "^1.1",
+        "drupal/image_link_attributes": "^1.2"       
     },
     "require-dev": {
         "behat/mink": "~1.7",

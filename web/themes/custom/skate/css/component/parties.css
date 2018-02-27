@@ -1,8 +1,56 @@
+@media (max-width: 62.475em){
+
 .party .views-row {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content:center;
+	align-items: center;
+
+
+
+}
+
+.party .views-row .field-content img {
+	max-width:100%;
+ 	height: auto;
+}
+
+
+.party .views-row .views-field-field-dynamic .field-content{
+	padding: 2.5%;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 62.500em) {
+
+.party .views-row {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content:space-between;
+
 
 
 }
@@ -19,6 +67,119 @@
 	align-self: center;
 }
 
+
+
+
+/*below is giving the layout. I honestly couldn't figure how to flex it so that way the children would seperate,
+the documentation says they should, but clearly I'm doing something wrong. Hence all the hacky looking margins and padding.*/
+
+.party .views-row:nth-child(even){
+	flex-direction: row-reverse;
+}
+
+.party .views-row:nth-child(1) .views-field-field-dynamic  {
+	margin-left: 3em;
+	padding-left: 9em;
+	padding-right: 1em;
+}
+
+.party .views-row:nth-child(2) .views-field-field-dynamic  {
+	margin-right: 3em;
+	padding-right:9em;
+	padding-left: 1em;
+	
+}
+
+.party .views-row:nth-child(3) .views-field-field-dynamic  {
+	margin-left: 3em;
+	padding-left: 9em;
+	padding-right: 1em;
+}
+
+.party .views-row:nth-child(4) .views-field-field-dynamic  {
+	
+}
+
+.party .views-row:nth-child(5) .views-field-field-dynamic  {
+	margin-left: 3em;
+	padding-left: 9em;
+	padding-right: 1em;
+}
+
+.party .views-row:nth-child(6) .views-field-field-dynamic  {
+	margin-right: 3em;
+	padding-right:9em;
+	padding-left: 1em;
+	
+}
+
+.party .views-row:nth-child(7) .views-field-field-dynamic  {
+	margin-left: 3em;
+	padding-left: 9em;
+	padding-right: 1em;
+}
+
+.party .views-row:nth-child(8) .views-field-field-dynamic  {
+	
+}
+
+
+
+.party .views-row:nth-child(odd) .views-field-field-image img {
+	margin-right: 3em;
+	/*margin-left: 1em*/
+}
+.party .views-row:nth-child(even) .views-field-field-image img {
+	margin-left: 3em;
+	/*margin-right: 1em;*/
+}
+
+/*below makes sure the prices and terms for the parties are in thier respective spots. centered.*/
+
+.party .views-row:nth-child(1)  {}
+.party .views-row:nth-child(2) {}
+.party .views-row:nth-child(3)  {}
+.party .views-row:nth-child(4) {
+	justify-content: center;
+
+}
+.party .views-row:nth-child(5)  {}
+.party .views-row:nth-child(6)  {}
+.party .views-row:nth-child(7)  {}
+.party .views-row:nth-child(8) {
+		justify-content: center;
+
+}
+
+
+/*
+
+bad code. was attemptin to make the children psuedo elemnts above do the even/odd thing.
+then below was selecting the pricing, which did not work. so instead above i just listed out 
+all the nth children. so, no need for the code below.
+
+.party .views-row:nth-child(4n) .views-field-field-dynamic .field-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.party .views-row:nth-child(4n) .views-field-field-dynamic .field-content p{
+	align-self: center;
+	flex-grow: 1;
+}
+
+*/
+
+}
+
+/*below is coloring all the header tags
+*/
 .party .views-row:nth-child(1) .views-field-field-dynamic h2 {
 	color:rgb(255,184,106);
 }
@@ -45,22 +206,4 @@
 
 .party .views-row:nth-child(7) .views-field-field-dynamic h2 {
 	color: rgb(255,246,9);
-}
-
-
-.party .views-row:nth-child(even){
-	flex-direction: row-reverse;
-}
-
-.party .views-row:nth-child(1)  {}
-.party .views-row:nth-child(2) {}
-.party .views-row:nth-child(3)  {}
-.party .views-row:nth-child(4) {
-	justify-content: center;
-}
-.party .views-row:nth-child(5)  {}
-.party .views-row:nth-child(6)  {}
-.party .views-row:nth-child(7)  {}
-.party .views-row:nth-child(8) {
-		justify-content: center;
 }

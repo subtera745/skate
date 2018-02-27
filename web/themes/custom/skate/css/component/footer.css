@@ -16,18 +16,22 @@ footer > * {
 footer {
 	width: 100%;
 	background-color: #7bd8df;
+	margin-top: 2.5%;
 }
 
 footer .region-footer {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+	margin-top: 2.5%;
 }
 
 footer .region nav > ul {
-	padding: 1em 3em;
+	padding: 2.5%;
+	margin: 2.5%;
+	
 }
 
 footer .region nav > ul li{
@@ -46,5 +50,9 @@ footer .region-footer #block-views-block-footer-contact-block-1 {
 
 .footer-contact .views-row .views-field-field-dynamic .field-content {
 	color: white;
-	padding: 1em 3em;
+	/*padding: 1em 3em;*/
+}
+
+.footer-contact .views-row .views-field-field-dynamic .field-content h2 {
+	padding-left: 2.5%;
 }

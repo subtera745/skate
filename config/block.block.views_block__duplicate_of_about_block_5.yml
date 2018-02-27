@@ -1,4 +1,4 @@
-uuid: a56d955e-5b67-4fe1-a0c7-820a16e9b5e3
+uuid: b3f9ee4c-fd43-4ec3-baa7-405cd7e20ebd
 langcode: en
 status: true
 dependencies:
@@ -9,22 +9,22 @@ dependencies:
     - views
   theme:
     - skate
-id: views_block__duplicate_of_about_block_4
+id: views_block__duplicate_of_about_block_5
 theme: skate
 region: content
-weight: -3
+weight: 6
 provider: null
-plugin: 'views_block:duplicate_of_about-block_4'
+plugin: 'views_block:duplicate_of_about-block_5'
 settings:
-  id: 'views_block:duplicate_of_about-block_4'
+  id: 'views_block:duplicate_of_about-block_5'
   label: ''
   provider: views
-  label_display: '0'
+  label_display: visible
   views_label: ''
   items_per_page: none
 visibility:
   request_path:
     id: request_path
-    pages: /contact
+    pages: /home
     negate: false
     context_mapping: {  }

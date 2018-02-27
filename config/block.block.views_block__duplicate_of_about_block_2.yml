@@ -12,7 +12,7 @@ dependencies:
 id: views_block__duplicate_of_about_block_2
 theme: skate
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'views_block:duplicate_of_about-block_2'
 settings:

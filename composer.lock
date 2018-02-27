@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "27051fb7cdd57ca78de2406462de299a",
+    "content-hash": "8932eaa59211c6b6283fa01ea75f0a5f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2860,6 +2860,53 @@
             }
         },
         {
+            "name": "drupal/image_link_attributes",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/image_link_attributes",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/image_link_attributes-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "560c42786059c8ef91c7ca8ba68310bc542e6190"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1476238440",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "awasson",
+                    "homepage": "https://www.drupal.org/user/127091"
+                }
+            ],
+            "description": "Extends the image field link to add custom attributes for adding class=, target= and rel=",
+            "homepage": "https://www.drupal.org/project/image_link_attributes",
+            "support": {
+                "source": "http://cgit.drupalcode.org/image_link_attributes"
+            }
+        },
+        {
             "name": "drupal/inline_entity_form",
             "version": "1.0.0-beta1",
             "source": {
@@ -3031,6 +3078,57 @@
             "homepage": "https://www.drupal.org/project/lightgallery",
             "support": {
                 "source": "http://cgit.drupalcode.org/lightgallery"
+            }
+        },
+        {
+            "name": "drupal/linked_field",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/linked_field",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/linked_field-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "99c877b15e814e8275a38d5b161fc5db444dd69d"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1493495342",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "hubdrop",
+                    "homepage": "https://www.drupal.org/user/2750597"
+                },
+                {
+                    "name": "yannickoo",
+                    "homepage": "https://www.drupal.org/user/531118"
+                }
+            ],
+            "description": "Adds the functionality to link fields to a specific destination.",
+            "homepage": "https://www.drupal.org/project/linked_field",
+            "support": {
+                "source": "http://cgit.drupalcode.org/linked_field"
             }
         },
         {

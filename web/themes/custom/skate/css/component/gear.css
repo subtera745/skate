@@ -14,20 +14,38 @@ idk. they both display content. then im only going to limit those to their respe
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+
+}
+
+
+.gear-banner .views-row .views-field-field-banner .field-content img {
+	max-width:100%;
+ 	height: auto;
 }
 
 .gear {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	margin: 1em;
+	max-width:100%;
+ 	height: auto;
 }
+
+/*.gear-content .views-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}*/
 
 .gear-content .views-row .views-field-field-dynamic .field-content{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding:.25% 2.5%;
 }
 
 .gear-content .views-row .views-field-field-dynamic h2 {

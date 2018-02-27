@@ -1,3 +1,64 @@
+@media(max-width:62.475em) {
+
+	.about .views-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+
+
+/*below ensures that the text fields on the home page attempt to stay centered.
+*/
+.about .views-row .views-field-field-dynamic .field-content{
+	padding: 2.5%;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.about .views-row .views-field-field-image .field-content{
+	/*display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: auto;*/
+}
+
+.about .views-row .views-field-field-dynamic .field-content h2 {
+	align-self: center;
+}
+
+/*.about .views-row .views-field-field-image .field-content img {
+	align-self: center;
+}*/
+
+.about .views-row .field-content img {
+	max-width:100%;
+ 	height: auto;
+}
+
+
+
+
+.about .views-row .views-field-field-dynamic .field-content ul {
+
+    column-count: 2;
+    column-gap: 2em;
+
+}
+}
+
+
+@media (min-width: 62.500em) {
+
 .about .views-row {
 	display: flex;
 	flex-direction: row;
@@ -24,24 +85,7 @@
 	align-self: center;
 }
 
-/*the next three control the heading colors of the content.*/
 
-.about .views-row:nth-child(1) h2 {
-	color:rgb(255,184,106);
-	margin-top: .5em;
-}
-
-.about .views-row:nth-child(2) h2 {
-	color: rgb(255,147,173);
-		margin-top: .5em;
-
-}
-
-.about .views-row:nth-child(3)  h2 {
-	color:rgb(190,163,204);
-		margin-top: .5em;
-
-}
 
 /*the next three control the layout of the view fields.*/
 
@@ -64,26 +108,57 @@ because one of the views-row is reversed. so just saying margin left for all of 
 .about .views-row:nth-child(1) .views-field-field-dynamic  {
 	margin-left: 3em;
 	padding-left: 8em;
+	padding-right: 1em;
 }
 
 .about .views-row:nth-child(2) .views-field-field-dynamic  {
 	margin-right: 3em;
 	padding-right:8em;
-	/*background-color: lime;*/
+	padding-left: 1em;
+	
 }
 
 .about .views-row:nth-child(3) .views-field-field-dynamic  {
 	margin-left: 3em;
 	padding-left: 8em;
-	/*background-color: pink;*/
+	padding-right: 1em;
+
 }
 
 .about .views-row:nth-child(1) .views-field-field-image img {
 	margin-right: 2em;
+	/*margin-left: 1em*/
 }
 .about .views-row:nth-child(2) .views-field-field-image img {
 	margin-left: 2em;
+	/*margin-right: 1em;*/
 }
 .about .views-row:nth-child(3) .views-field-field-image img {
 	margin-right: 2em;
+	/*margin-left: 1em;*/
 }
+
+}
+
+/*the next three control the heading colors of the content.*/
+
+.about .views-row:nth-child(1) h2 {
+	color:rgb(255,184,106);
+	margin-top: .5em;
+}
+
+.about .views-row:nth-child(2) h2 {
+	color: rgb(255,147,173);
+		margin-top: .5em;
+
+}
+
+.about .views-row:nth-child(3)  h2 {
+	color:rgb(190,163,204);
+		margin-top: .5em;
+
+}
+
+
+
+
