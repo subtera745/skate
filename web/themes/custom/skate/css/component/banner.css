@@ -7,6 +7,10 @@
  	margin: 0%;
  }
 
+
+/* now. the biggest issue on this page is the simple fact i cannot figure out how to make the white bar go away. its annoying.
+ there's literally nothing there to cause it.*/
+
 .head .views-row .views-field-field-banner .field-content {
 	width: auto;
 	height: auto;
