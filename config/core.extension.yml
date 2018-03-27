@@ -36,6 +36,7 @@ module:
   node: 0
   page_cache: 0
   path: 0
+  quickedit: 0
   responsive_image: 0
   simple_gmap: 0
   social_media_links: 0

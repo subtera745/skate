@@ -5,8 +5,20 @@
  	max-width:100%;
  	height: auto;
  	margin: 0%;
+ 	padding-top: 1em;
+ 	padding-bottom:1em;
  }
 
+.head .views-row .views-field-field-banner .field-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header {
+	width: 100%;
+/*	background: black;
+*/}
 
 /* now. the biggest issue on this page is the simple fact i cannot figure out how to make the white bar go away. its annoying.
  there's literally nothing there to cause it.*/

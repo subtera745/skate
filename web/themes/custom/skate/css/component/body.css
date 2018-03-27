@@ -11,3 +11,12 @@
 	font-family: 'Source Sans Pro', sans-serif;
 /*	https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro
 */}
+
+body {
+	background-color: #000;
+}
+
+main {
+	background-color: #fff;
+	padding-bottom: 2em;
+}

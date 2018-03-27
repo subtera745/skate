@@ -7,10 +7,12 @@ dependencies:
     - field.field.node.centercontent.field_image
     - field.field.node.centercontent.field_imageright
     - field.field.node.centercontent.field_view_selection
+    - image.style.400x200
     - node.type.centercontent
   module:
     - field_layout
     - image
+    - image_link_attributes
     - layout_discovery
     - text
     - user
@@ -34,18 +36,30 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: ''
+      image_style: 400x200
       image_link: ''
-    third_party_settings: {  }
+    third_party_settings:
+      image_link_attributes:
+        advanced:
+          target: ''
+          class: ''
+          rel: ''
+        extended: 0
     type: image
     region: content
   field_imageright:
     weight: 2
     label: hidden
     settings:
-      image_style: ''
+      image_style: 400x200
       image_link: ''
-    third_party_settings: {  }
+    third_party_settings:
+      image_link_attributes:
+        advanced:
+          target: ''
+          class: ''
+          rel: ''
+        extended: 0
     type: image
     region: content
 hidden:
