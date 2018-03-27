@@ -8,7 +8,7 @@
 #block-views-block-duplicate-of-about-block-4 div .contactV1{
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
 
@@ -17,7 +17,7 @@
 .contact .views-row {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -46,7 +46,7 @@
 .contact .views-row .views-field-field-image .field-content img {
 	max-width:85%;
  	height: auto;
- 	padding: 2.5%
+ 	padding: 2em;
 }
 
 
@@ -103,7 +103,7 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .contact .views-row {
@@ -116,6 +116,8 @@
 
 .contact .views-row .views-field-field-dynamic {
 	padding: 2em;
+	
+
 }
 
 
@@ -124,7 +126,7 @@
 .contact .views-row .views-field-field-image .field-content img {
 	max-width:100%;
  	height: auto;
- 	padding: 2.5%
+ 	padding: 2em;
 }
 
 #button-maps {
@@ -174,3 +176,4 @@
 .contact .views-row .views-field-field-dynamic h2 {
 	color: rgb(190,163,204);
 }
+
