@@ -43,6 +43,7 @@
 .about .views-row .field-content img {
 	max-width:100%;
  	height: auto;
+
 }
 
 
@@ -127,14 +128,17 @@ because one of the views-row is reversed. so just saying margin left for all of 
 
 .about .views-row:nth-child(1) .views-field-field-image img {
 	margin-right: 2em;
+	padding-left: 1em;
 	/*margin-left: 1em*/
 }
 .about .views-row:nth-child(2) .views-field-field-image img {
 	margin-left: 2em;
+	padding-right: 1em;
 	/*margin-right: 1em;*/
 }
 .about .views-row:nth-child(3) .views-field-field-image img {
 	margin-right: 2em;
+	padding-left: 1em;
 	/*margin-left: 1em;*/
 }
 
