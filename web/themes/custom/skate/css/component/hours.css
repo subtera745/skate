@@ -29,6 +29,10 @@ td, table, tr, th, tbody {
 	border-color: #e2e2e2;
 }
 
+td {
+	padding: 0.25em
+}
+
 .hours .views-row:nth-child(1) h2 {
 color: rgb(255,184,106) ;
 }
