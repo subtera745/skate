@@ -2,4 +2,4 @@ version: '2'
 services:
   cms:
     ports:
-      - 9001:80
+      - 9003:80

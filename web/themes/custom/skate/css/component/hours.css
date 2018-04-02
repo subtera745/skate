@@ -122,3 +122,10 @@ so that div will have an id, so that way this can be properly styled.*/
 
 
 }
+.long-text {
+	max-width: 40em;
+}
+
+.bold-font {
+	max-width: 40em;
+}

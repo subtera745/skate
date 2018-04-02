@@ -2,7 +2,7 @@
 	max-width: 75em;
 }
 
-@media(max-width: 58.063em){
+@media(max-width: 63.833em){
 
 
 #block-views-block-duplicate-of-about-block-4 div .contactV1{
@@ -85,12 +85,12 @@
 }
 
 
-@media(min-width: 58.125em){
+@media(min-width: 63.889em){
 
 .contactV1 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .contactV1 .views-row{
